@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "830988589558",
+    "project_id": "todo-app-e8879",
+    "storage_bucket": "todo-app-e8879.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830988589558:android:88fe2ba3653e30c8080fd7",
+        "android_client_info": {
+          "package_name": "com.muhiadamaris.fastlanesetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830988589558-7f2dpuo53rv6gm0vranucpf12qr9s7p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPWFWReFevOA1SzVyixdYc6p9N-ua-Y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830988589558-7f2dpuo53rv6gm0vranucpf12qr9s7p1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830988589558-1pbh8mcb36pghs00p2eg8ilneq1cdun1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "muhia.damaris.ios.ToDo-App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
