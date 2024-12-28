@@ -21,19 +21,19 @@ To install fastlane using the bundler:
      1. The source of gems (the default is usually RubyGems, but you can add custom sources).
      2. A list of gems your project needs, along with optional version constraints.
 6. So inside the Gemfile add the following:
-   source "https://rubygems.org" - This line specifies the source from which Bundler will fetch the gems.
-   gem "fastlane"
+   - source "https://rubygems.org" - This line specifies the source from which Bundler will fetch the gems.
+   - gem "fastlane"
 7. Run: bundle install - to install the gems(in our case it will install fastlane) specified in your Gemfile. It also Creates a Gemfile.lock to record exactly which versions of the gems were installed, ensuring consistency.
 8. bundle exec fastlane init - Initializes Fastlane for your project and creates a folder named fastlane in your project directory, with a: 
    - Appfile - where you store project-specific details like app identifiers, package names
    - Fastfile - where we define different lanes and actions for automating tasks like building, testing, or distributing your app
 9. bundle exec fastlane add_plugin firebase_app_distribution - creates a Plugin file. Inside this file is where we will add the required plugins for the bundler to install.(in our case: firebase_app_distribution that will help us upload builds)
    - In Addition to the created plugin file, the Gemfile gets modified with PluginFile path 
-   - Other plugins include:
+   - Other plugins include: https://docs.fastlane.tools/plugins/available-plugins/
      1. bundle exec fastlane add_plugin versioning - Automatically increment version numbers in your build.gradle (Android) or Info.plist (iOS) files.
      2. bundle exec fastlane add_plugin testflight
      3. bundle exec fastlane add_plugin app_store_connect - Automate tasks such as managing app metadata, uploading screenshots, updating app versions, and more.
-     4. 
+     
 
 
 
